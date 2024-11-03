@@ -129,6 +129,7 @@ h1 {
   padding: 10%;
   display: flex;
   flex-direction: column;
+  margin-bottom: 100px;
 }
 blockquote {
   margin-bottom: 20px;
@@ -137,4 +138,40 @@ blockquote {
   align-self: flex-end;
   font-weight: 900;
   font-size: 25px;
+}
+/* end*/
+/* start action  */
+.action {
+  background-color: #3882f6;
+  border-radius: 3px;
+  padding: 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.action__info {
+}
+.action__title {
+  font-size: 35px;
+  color: #e5e7eb;
+  margin-bottom: 10px;
+}
+.action__description {
+  color: #e5e7eb;
+}
+.action__button {
+}
+.action__btn {
+  padding: 10px 30px;
+  background-color: #3882f6;
+  border: 1px solid #fff;
+  color: #fff;
+  border-radius: 5px;
+}
+.footer {
+  background-color: #1f2937;
+  padding: 30px;
+  text-align: center;
+  color: #fff;
 }
